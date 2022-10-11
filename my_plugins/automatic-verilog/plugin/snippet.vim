@@ -2,7 +2,7 @@
 " Vim Plugin for Verilog Code Automactic Generation 
 " Author:         HonkW
 " Website:        https://honk.wang
-" Last Modified:  2022/08/05 21:28
+" Last Modified:  2022/10/11 14:35
 " File:           snippet.vim
 " Note:           Snippet function partly from zhangguo's vimscript,partly from load_template
 "------------------------------------------------------------------------------
@@ -25,12 +25,12 @@ endfunction
 
 "Defaults 默认设置{{{1
 let g:_ATV_SNIPPET_DEFAULTS = {
-            \'author':      'HonkW',
-            \'company':     'NB Co.,Ltd.',
+            \'author':      'Yangzhao',
+            \'company':     '',
             \'project':     'IC_Design',
-            \'device':      'Xilinx',
-            \'email':       'contact@honk.wang',
-            \'website':     'honk.wang',
+            \'device':      'MCU',
+            \'email':       'yangzhao_ic@zju.edu.cn',
+            \'website':     '',
             \'albpp_file':  expand("<sfile>:p:h").'/template/albpp.v',
             \'albpp_pos':   '4,13',
             \'albpn_file':  expand("<sfile>:p:h").'/template/albpn.v',
